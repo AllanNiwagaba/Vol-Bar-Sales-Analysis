@@ -86,6 +86,10 @@ This section highlights some of the DAX calculations used:
 - **Best Selling day**
 ```Best Selling day:=MAXX(TOPN(1,SUMMARIZE('Calendar','Calendar'[Day of the week],"Selling days",[Avg Sales Per day]),[Selling days]),'Calendar'[Day of the week])```
 
+## Data Viualization
+
+Created pivot charts and made a a dashboard
+
 ## Findings
 
 - The bar made sales of 29,373 (total units) and overall total revenue of 106 million. There was a total of 3,420 transactions.
