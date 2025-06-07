@@ -4,13 +4,13 @@
   
 ## Table of Content
 
-- [Project Over view](project-over-view)
-- [Tools used](tools-used)
-- [Data Cleaning & Preparation](data-cleaning-&-preparation)
-- [Exploratory Data Analysis](exploratory-data-analysis)
-- [Data Analysis](data-analysis)
-- [Findings](findings)
-- [Recommendations.](recommendations.)
+- [Project Over view](#project-over-view)
+- [Tools used](#tools-used)
+- [Data Cleaning & Preparation](#data-cleaning-&-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Findings](#findings)
+- [Recommendations](#recommendations)
   
 ## Project Over view
 
@@ -20,7 +20,7 @@ The goal is:
 - To measure the Impact of Discount Days on sales.
 - To  help the business make data-informed decisions about sales strategy and pricing.
 
-## Data Source.
+## Data Source
 
 - Datasets used are stored in a folder on a local computer.
 
@@ -30,7 +30,7 @@ The goal is:
 - Power Pivot - Data modelling & DAX Calculations
 - Pivot Tables - Creating reports
 
-## Data Cleaning & Preparation.
+## Data Cleaning & Preparation
 
 This process involves data extraction, cleaning, and transforming data to get ready for analysis.
 
@@ -51,7 +51,7 @@ This process involves data extraction, cleaning, and transforming data to get re
 - ```Profit Margin =Sales[Sale Amount]-Sales[COGs]```
 - ```Type of Sales =IF(OR(OR(RELATED('Calendar'[Day of the week])="Wed",RELATED('Calendar'[Day of the week]) = "Thu"), RELATED('Calendar'[Day of the week]) = "Fri"),"Discount Sale", "Non Discount Sale")```
 
-## Exploratory Data Analysis.
+## Exploratory Data Analysis
 
 The EDA Involved exploring sales to answer the following questions.
 
@@ -95,11 +95,11 @@ This section highlights some of the DAX calculations used:
 - Saturday and Sunday are the best days with sat making over 1.5million on average
 - April, May and June were the peak months with over 5,000 units sold. Howver, April made the most Revenue of over 21 million.
 
-## Recommendations.
+## Recommendations
 
 - Focus Promotions on hight Profit Margin Products like Suspenses Tots & Glasses to increase their sales and maximize profitability
 
-#### Recommendations based on Discount Vs Non discount sales.
+#### Recommendations based on Discount Vs Non discount sales
 
 - Use bundling instead of discounts (eg. Buy 2, get 1 free). to increase quantity without reducing unit price. This will help maintain percieved value while driving volume
 - Promote Experiences like music, themed nights, loyaly programs not just prices.
