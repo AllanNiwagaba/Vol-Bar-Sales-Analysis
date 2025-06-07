@@ -6,7 +6,7 @@
 
 - [Project Over view](#project-over-view)
 - [Tools used](#tools-used)
-- [Data Cleaning & Preparation](#data-cleaning-&-preparation)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
@@ -19,6 +19,9 @@ This project analyzes sales performance at Vol Bar, focusing on product-level in
 The goal is:
 - To measure the Impact of Discount Days on sales.
 - To  help the business make data-informed decisions about sales strategy and pricing.
+![Dashboard](https://github.com/user-attachments/assets/ae97ba45-65ac-41a6-8a90-6562c21085c7)
+
+[Vol Bar Report.xlsx](https://github.com/user-attachments/files/20638176/Vol.Bar.Report.xlsx)
 
 ## Data Source
 
@@ -30,7 +33,7 @@ The goal is:
 - Power Pivot - Data modelling & DAX Calculations
 - Pivot Tables - Creating reports
 
-## Data Cleaning & Preparation
+## Data Cleaning and Preparation
 
 This process involves data extraction, cleaning, and transforming data to get ready for analysis.
 
@@ -64,6 +67,11 @@ The EDA Involved exploring sales to answer the following questions.
 - What are the peak sales Periods
 - What are the best selling days?
 
+![Discount Vs Non Discount Sales](https://github.com/user-attachments/assets/e539d1e6-d395-4e3a-a1e8-55bfef9416ce)
+
+
+![Revenue   Profitability](https://github.com/user-attachments/assets/291dc64a-df0c-4e82-95da-653ae002f7ef)
+
 ## Data Analysis
 
 This section highlights some of the DAX calculations used:
@@ -85,10 +93,6 @@ This section highlights some of the DAX calculations used:
 
 - **Best Selling day**
 ```Best Selling day:=MAXX(TOPN(1,SUMMARIZE('Calendar','Calendar'[Day of the week],"Selling days",[Avg Sales Per day]),[Selling days]),'Calendar'[Day of the week])```
-
-## Data Viualization
-
-Created pivot charts and made a a dashboard
 
 ## Findings
 
