@@ -19,6 +19,7 @@ This project analyzes sales performance at Vol Bar, focusing on product-level in
 The goal is:
 - To measure the Impact of Discount Days on sales.
 - To  help the business make data-informed decisions about sales strategy and pricing.
+
 ![Dashboard](https://github.com/user-attachments/assets/ae97ba45-65ac-41a6-8a90-6562c21085c7)
 
 [Vol Bar Report.xlsx](https://github.com/user-attachments/files/20638176/Vol.Bar.Report.xlsx)
